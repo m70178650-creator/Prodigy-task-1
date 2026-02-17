@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#navbar.scrolled {
+    background: black;
+}
+
+#navbar.scrolled a {
+    color: white;
+}
+
+.content {
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+}
